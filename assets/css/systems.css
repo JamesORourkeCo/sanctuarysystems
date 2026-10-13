@@ -1,0 +1,21 @@
+/* Sanctuary Systems additions v0002. Load AFTER the unmodified Sanctuary Outdoor site.css. */
+.skip-link { position: absolute; left: -999px; top: 0; background: #111827; color: #fff; padding: .6rem 1rem; z-index: 100; }
+.skip-link:focus { left: 0; }
+a.logo-wrap { text-decoration: none; }
+.product-mark { margin-bottom: 1rem; }
+.product-mark .logo-main { font-size: clamp(1.9rem, 4vw, 3.3rem); }
+.site-shot { width: 100%; height: auto; display: block; border-radius: 12px; }
+.shot-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; }
+.two-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; align-items: start; }
+.feature-list { line-height: 1.7; }
+.plain-card { padding: 1.15rem; border: 1px solid rgba(17,24,39,.15); border-radius: 12px; }
+.coming-soon { font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.breadcrumb { font-size: .85rem; color: #6b7280; }
+.breadcrumb a { color: inherit; }
+.section-subtitle a, .hero p a, .card p a, .faq p a { color: #CC0000; }
+.section-subtitle { max-width: 46rem; }
+.faq h3 { font-size: 1.05rem; margin: 1.1rem 0 .25rem; }
+.faq p { margin: 0; color: #4b5563; line-height: 1.55; max-width: 46rem; }
+.footer-links { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: .4rem 1.1rem; margin-top: .8rem; }
+.footer-links a { margin-left: 0; color: inherit; font-size: .8rem; white-space: normal; }
+@media (max-width: 760px) { .nav nav { gap: .65rem; } }

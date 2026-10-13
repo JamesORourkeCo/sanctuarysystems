@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sanctuarysystems.com/sitemap.xml
