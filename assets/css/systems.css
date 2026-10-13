@@ -1,4 +1,4 @@
-/* Sanctuary Systems additions v0002. Load AFTER the unmodified Sanctuary Outdoor site.css. */
+/* Sanctuary Systems additions v0003. Load AFTER the unmodified Sanctuary Outdoor site.css. */
 .skip-link { position: absolute; left: -999px; top: 0; background: #111827; color: #fff; padding: .6rem 1rem; z-index: 100; }
 .skip-link:focus { left: 0; }
 a.logo-wrap { text-decoration: none; }
@@ -19,3 +19,14 @@ a.logo-wrap { text-decoration: none; }
 .footer-links { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: .4rem 1.1rem; margin-top: .8rem; }
 .footer-links a { margin-left: 0; color: inherit; font-size: .8rem; white-space: normal; }
 @media (max-width: 760px) { .nav nav { gap: .65rem; } }
+/* Product names stay inside their cards at every screen width (hub page). */
+.plain-card .product-mark, .plain-card .product-mark .logo-main { min-width: 0; max-width: 100%; }
+.plain-card .product-mark .logo-main { font-size: clamp(1.4rem, 2.2vw, 2.4rem); line-height: 1.18; white-space: normal; overflow-wrap: anywhere; letter-spacing: .035em; }
+/* Phone header: logo above, navigation wraps instead of widening the page. */
+@media (max-width: 800px) {
+  .nav { flex-wrap: wrap; }
+  .nav nav { flex: 1 1 100%; min-width: 0; justify-content: flex-start; gap: .4rem 1rem; }
+  .nav nav a { margin-left: 0; }
+  .logo-main, .logo-sub { white-space: normal; }
+}
+.plain-card .btn-primary { white-space: normal; max-width: 100%; box-sizing: border-box; }
