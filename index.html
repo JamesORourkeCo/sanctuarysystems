@@ -15,6 +15,18 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="/assets/css/site.css">
   <link rel="stylesheet" href="/assets/css/systems.css">
+  <style>
+    /* Keep the three product names inside their cards at every screen width. */
+    .plain-card .product-mark,
+    .plain-card .product-mark .logo-main { min-width: 0; max-width: 100%; }
+    .plain-card .product-mark .logo-main {
+      font-size: clamp(1.4rem, 2.2vw, 2.4rem);
+      line-height: 1.18;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      letter-spacing: 0.035em;
+    }
+  </style>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
