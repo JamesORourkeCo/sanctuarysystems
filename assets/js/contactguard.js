@@ -31,13 +31,13 @@
       el.textContent = pretty(d); el.href = "tel:+1" + d; el.classList.remove("cg-tel-show");
     } else if (el.classList.contains("cg-vcard")) {
       ev.preventDefault();
-      var card = ["BEGIN:VCARD", "VERSION:3.0", "N:Sanctuary Systems;;;;", "FN:Sanctuary Systems", "ORG:Sanctuary Systems",
+      var card = ["BEGIN:VCARD", "VERSION:3.0", "N:Sanctuary Platforms;;;;", "FN:Sanctuary Platforms", "ORG:Sanctuary Platforms",
         "TEL;TYPE=WORK,VOICE:" + digits(el),
         "ADR;TYPE=WORK:;;3880 Stockton Hill Rd Ste 103 #270;Kingman;AZ;86409;USA",
         "EMAIL;TYPE=WORK:" + mail(el), "URL:https://sanctuaryplatforms.com/", "END:VCARD"].join("\r\n") + "\r\n";
       var url = URL.createObjectURL(new Blob([card], { type: "text/vcard" }));
       var link = document.createElement("a");
-      link.href = url; link.download = "sanctuarysystems.vcf";
+      link.href = url; link.download = "sanctuaryplatforms.vcf";
       document.body.appendChild(link); link.click(); link.remove();
       setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
     }
