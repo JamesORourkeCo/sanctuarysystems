@@ -45,3 +45,6 @@ body > footer {
 body > footer {
   padding-bottom: 3rem;
 }
+
+/* platformsnamesv0001 (2026-10-18): the longer Sanctuary Platforms product names wrap inside the page instead of running off it. */
+.product-mark .logo-main { white-space: normal; overflow-wrap: anywhere; min-width: 0; max-width: 100%; }
