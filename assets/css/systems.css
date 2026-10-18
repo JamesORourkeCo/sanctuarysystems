@@ -30,3 +30,18 @@ a.logo-wrap { text-decoration: none; }
   .logo-main, .logo-sub { white-space: normal; }
 }
 .plain-card .btn-primary { white-space: normal; max-width: 100%; box-sizing: border-box; }
+
+/* systemsbottommarginv0001 (2026-10-17, operator: the bottom of the pages has no left margin). The footer comes after
+   </main>, so it missed main's margins and ran against the left edge. This gives it main's width and side margins, so
+   its text lines up with the logo and the page text above (same rule as sanctuaryoutdoor.com). */
+body > section,
+body > footer {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+body > footer {
+  padding-bottom: 3rem;
+}
