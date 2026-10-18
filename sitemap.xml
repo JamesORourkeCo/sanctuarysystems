@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://sanctuaryplatforms.com/</loc><lastmod>2026-10-17</lastmod></url>
-  <url><loc>https://sanctuaryplatforms.com/design/</loc><lastmod>2026-10-17</lastmod></url>
+  <url><loc>https://sanctuaryplatforms.com/design/</loc><lastmod>2026-10-18</lastmod>
+    <image:image><image:loc>https://sanctuaryplatforms.com/projects/1200dpi/img1/001.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sanctuaryplatforms.com/projects/1200dpi/img1/002.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sanctuaryplatforms.com/projects/1200dpi/img1/003.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sanctuaryplatforms.com/projects/1200dpi/img1/004.jpg</image:loc></image:image>
+  </url>
   <url><loc>https://sanctuaryplatforms.com/capture/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://sanctuaryplatforms.com/camera/</loc><lastmod>2026-10-17</lastmod></url>
 </urlset>
